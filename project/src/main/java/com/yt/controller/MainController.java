@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
-	@RequestMapping("YT_main.do")
+	@RequestMapping("YT_main")
 	public String main() {
 		System.out.println("mainPage 동작");
 		return "YT_MAIN/main";
