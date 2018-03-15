@@ -26,6 +26,9 @@
 #1. 코딩은 최대한 WARNING 없게 코딩 (이클립스의 코딩 라인의 노란색 배경 ! 표시 없게)
 #2. 소스 라인 최대한 깔끔하게 정리
 #3. 주석은 기능의 가장 큰틀에 적용하되, 본인이 판단하기 쉽게 변수명 등에 주석 달아도 됌
+#4. CSS, JS 적용 방법은 아래 명시 (자세한 적용 예시는 main.jsp에 적용함)
+4-1 <link href="${pageContext.request.contextPath}/resources/css/CSS폴더명/CSS이름" rel="stylesheet" type="text/css">
+4-2 <script src="${pageContext.request.contextPath}/resources/script/JS폴더명/JS이름" type="text/javascript"></script>
 
 
 
